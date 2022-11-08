@@ -41,11 +41,11 @@ section:first-child{
     font-size: 26px;
     line-height: 1.1923;
     color: var(--color-black);
-    padding: 24px 93px 25px 0px;
+    padding: 24px 0px 25px 0px;
+    margin-right: 93px;
 }
 .header{
-    background-color: var(--color-white);
-    border: 1px solid rgba(236, 236, 236, 1)
+    border-bottom;: 1px solid rgba(236, 236, 236, 1)
 }
 .navigation{
     margin-right: auto;
@@ -72,7 +72,7 @@ section:first-child{
     color: var(--color-blue);
 }
 .email{
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .header-contact{
@@ -107,6 +107,8 @@ section:first-child{
     background: var(--color-background);
 }
 .hero-title{
+    width: 696px;
+    margin: 0 auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636;
@@ -114,9 +116,6 @@ section:first-child{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white);
-    padding-top: 200px;
-    padding-left: 237px;
-    padding-right: 237px;
 
 }
 
@@ -136,6 +135,7 @@ section:first-child{
     margin-left: auto;
     margin-right: auto;
     padding: 10px 32px;
+    margin-top: 30px;
 }
 .container-btn{
     margin-top: 30px;
@@ -193,8 +193,13 @@ section:first-child{
 
 /*-----------WORK------*/
 .work {
-    padding-bottom: 50px;
-    padding-top: 94px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-black)
     text-align: center;
 }
 
@@ -217,7 +222,7 @@ section:first-child{
     letter-spacing: 0.03em;
     color: var(--color-black);
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .teams-list {
@@ -233,7 +238,7 @@ section:first-child{
 }
 
 .img-container{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .teams-item-text {
     font-weight: 500;
@@ -242,7 +247,7 @@ section:first-child{
     letter-spacing: 0.03em;
     color: var(--color-black);
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .teams-position {
@@ -258,6 +263,7 @@ section:first-child{
 
 .contacts {
     background-color: var(--color-background);
+    padding: 60px 0;
 }
 
 .contacts-logo {
@@ -267,7 +273,6 @@ section:first-child{
     line-height: 1.1923;
     letter-spacing: 0.03em;
     color: var(--color-white);
-    padding-top: 60px;
     display: block;
 }
 
@@ -300,7 +305,6 @@ section:first-child{
 }
 .contacts-list-address{
     margin-top: 20px;
-    padding-bottom: 60px;
 }
 .address-item{
     margin-bottom: 9px;
@@ -314,8 +318,7 @@ section:first-child{
 .button-list {
     display: flex;
     justify-content: center;
-    padding-top: 94px;
-    padding-bottom: 34px;
+    margin-bottom: 34px;
 }
 
 .button-link {
@@ -342,6 +345,9 @@ section:first-child{
 .button-item{
 margin-right: 8px;
 }
+.button-item :last-child{
+    margin-right: 0px;
+}
 
 /*----------PORTFOLIO------*/
 .portfolio {
@@ -365,7 +371,6 @@ margin-right: 8px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 .portfolio-item {
