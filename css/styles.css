@@ -29,10 +29,7 @@ section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-section:first-child{
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
+
 .link{list-style: none;}
 .text{text-decoration: none;}
 .logo{
@@ -45,7 +42,7 @@ section:first-child{
     margin-right: 93px;
 }
 .header{
-    border-bottom;: 1px solid rgba(236, 236, 236, 1)
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 .navigation{
     margin-right: auto;
@@ -105,7 +102,9 @@ section:first-child{
 
 .hero{
     background: var(--color-background);
+    padding: 200px 0;
 }
+
 .hero-title{
     width: 696px;
     margin: 0 auto;
@@ -209,6 +208,9 @@ section:first-child{
     gap: 30px;
 }
 
+.work-about{
+    padding-top: 0;
+}
 /*-----------TEAMS------*/
 
 .teams {
@@ -234,7 +236,7 @@ section:first-child{
 .teams-item {
     background-color: var(--color-white);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+    padding-bottom: 30px;
 }
 
 .img-container{
@@ -255,8 +257,7 @@ section:first-child{
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: var(--color-gray);
-    text-align: center;
-    padding-bottom: 30px;
+    text-align: center; 
 }
 
 /*--------CONTACTS-----*/
@@ -274,6 +275,7 @@ section:first-child{
     letter-spacing: 0.03em;
     color: var(--color-white);
     display: block;
+    margin-bottom: 20px;
 }
 
 
@@ -291,6 +293,7 @@ section:first-child{
 .contacts-adress {
     font-style: normal;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .contacts-item {
@@ -304,7 +307,7 @@ section:first-child{
     color: var(--color-blue);
 }
 .contacts-list-address{
-    margin-top: 20px;
+
 }
 .address-item{
     margin-bottom: 9px;
@@ -352,6 +355,7 @@ margin-right: 8px;
 /*----------PORTFOLIO------*/
 .portfolio {
     font-family: 'Roboto', sans-serif;
+    padding: 94px 0;
 }
 
 .portfolio-title {
@@ -397,4 +401,8 @@ font-size: 16px;
     padding: 20px 24px;
     border: 1px solid rgba(238, 238, 238, 1);
     border-top: 0;
+}
+
+.color-web{
+ color: var(--color-blue);
 }
